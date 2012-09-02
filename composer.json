@@ -1,7 +1,7 @@
 {
-    "name": "mouf/javascript.jquery.jquery",
+    "name": "mouf/javascript.jquery.jquery-ui",
     "description": "This package contains the JQuery UI library, along a Mouf installer file to add JQuery UI easily in your Mouf project.",
-    "keywords": ["javascript", "mouf", "jquery", "jqueryUI", "jquery_ui"],
+    "keywords": ["javascript", "mouf", "jquery", "jqueryUI", "jquery-ui"],
     "homepage": "https://github.com/thecodingmachine/javascript.jquery.jquery-ui",
     "type": "library",
     "license": "MIT",

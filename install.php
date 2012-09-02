@@ -10,7 +10,7 @@ $moufManager = MoufManager::getMoufManager();
 if ($moufManager->instanceExists("jQueryUiLibrary")) {
 	$jQueryUILib = $moufManager->getInstanceDescriptor("jQueryUiLibrary");
 } else {
-	$jQueryUILib = $moufManager->createInstance("WebLibrary");
+	$jQueryUILib = $moufManager->createInstance("\Mouf\Html\Utils\WebLibraryManager\WebLibrary");
 	$jQueryUILib->setName("jQueryUiLibrary");
 }
 $jQueryUILib->getProperty("jsFiles")->setValue(array(
