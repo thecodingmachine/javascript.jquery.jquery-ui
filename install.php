@@ -1,5 +1,8 @@
 <?php
-use Mouf\InstallUtils;
+require_once __DIR__."/../../autoload.php";
+
+use Mouf\Actions\InstallUtils;
+use Mouf\MoufManager;
 
 // Let's init Mouf
 InstallUtils::init(InstallUtils::$INIT_APP);
