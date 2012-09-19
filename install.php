@@ -17,10 +17,10 @@ if ($moufManager->instanceExists("jQueryUiLibrary")) {
 	$jQueryUILib->setName("jQueryUiLibrary");
 }
 $jQueryUILib->getProperty("jsFiles")->setValue(array(
-	'vendor/mouf/javascript.jquery.jquery-ui/js/jquery-ui-1.8.20.custom.min.js'
+	'vendor/mouf/javascript.jquery.jquery-ui/js/jquery-ui-1.8.22.custom.min.js'
 ));
 $jQueryUILib->getProperty("cssFiles")->setValue(array(
-	'vendor/mouf/javascript.jquery.jquery-ui/css/ui-darkness/jquery-ui-1.8.20.custom.css'
+	'vendor/mouf/javascript.jquery.jquery-ui/css/ui-darkness/jquery-ui.css'
 ));
 $renderer = $moufManager->getInstanceDescriptor('defaultWebLibraryRenderer');
 $jQueryUILib->getProperty("renderer")->setValue($renderer);
