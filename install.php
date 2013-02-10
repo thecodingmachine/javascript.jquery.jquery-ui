@@ -13,7 +13,7 @@ InstallUtils::init(InstallUtils::$INIT_APP);
 $moufManager = MoufManager::getMoufManager();
 
 WebLibraryInstaller::installLibrary("jQueryUiLibrary",
-	array('vendor/mouf/javascript.jquery.jquery-ui/js/jquery-ui-1.8.22.custom.min.js'),
+	array('vendor/mouf/javascript.jquery.jquery-ui/js/jquery-ui-1.10.0.custom.min.js'),
 	array('vendor/mouf/javascript.jquery.jquery-ui/css/ui-darkness/jquery-ui.css'),
 	array('jQueryLibrary'),
 	true
